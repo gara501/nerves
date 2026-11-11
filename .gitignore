@@ -7,3 +7,4 @@ _to_delete/
 .env
 .env.*
 !.env.example
+builds/
