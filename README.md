@@ -93,6 +93,7 @@ Para probar un nivel directamente, abre el juego con `?level=N` en la URL, por e
 | 1 | Bienvenido | Presenta cada trampa por separado |
 | 2 | Confianza | Combina trampas: aplastadores en serie bajo techo bajo, láseres alternados, puente falso con láser, foso con pincho oculto |
 | 3 | Movimiento | Plataformas móviles, sierras, pantalla que avanza sola; tiempos de trampas más duros |
+| 4 | Ascenso | Casi dos pantallas de alto; aplastadores + láser sin pausa, salto entre plataformas que se cruzan; tiempos aún más duros |
 
 ### Dificultad por nivel
 
@@ -129,6 +130,8 @@ Empieza cuando el jugador pasa la columna `from` y termina cuando el borde derec
 | `:` | Tope invisible: limita el recorrido de plataformas y sierras |
 
 Las plataformas y sierras van de ida y vuelta hasta topar con un bloque sólido o un `:`. Arrancan hacia el extremo más lejano.
+
+Las plataformas verticales son sólidas solo desde arriba: se atraviesan desde abajo y de lado. Si bajan sobre el jugador, lo aplastan. Saltar desde una plataforma horizontal conserva su impulso.
 | `.` | Vacío |
 
 ## Terreno automático

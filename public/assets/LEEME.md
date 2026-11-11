@@ -10,7 +10,7 @@ Las rutas se configuran en `src/config/assets.js` y las piezas del tileset en `s
 | `tilesets/` | `tileset.png` | ✅ tiles de 16×16 (288×160) |
 | `backgrounds/` | | Capas de parallax 480×270 |
 | `traps/` | `saw.png` | ✅ sierra, 2 frames de 16×16 |
-| `traps/` | `pop-spikes.png` | ✅ pincho oculto, 4 frames de 16×16 (vacío → completo) |
+| `traps/` | `spike.png` | ✅ pincho oculto, 4 frames de 16×16 (vacío → completo) |
 | `traps/` | `moving-platform.png` | ✅ plataforma móvil, 3 piezas de 16×16 (izquierda, centro, derecha) |
 | `enemies/` | | |
 | `ui/` | | Íconos, botones |
